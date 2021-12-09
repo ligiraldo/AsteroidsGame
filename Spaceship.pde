@@ -1,4 +1,4 @@
-class Spaceship extends Floater  {   
+class Spaceship extends Floater  {  
     public Spaceship(){
       myColor = color(255,0,0);
       myCenterX = 250;
@@ -23,5 +23,11 @@ class Spaceship extends Floater  {
   }
   public void setYspeed(double y) {
     myYspeed = y;
+  }
+  public double getX(){
+    return myCenterX;
+  }
+  public double getY(){
+    return myCenterY;
   }
 }
